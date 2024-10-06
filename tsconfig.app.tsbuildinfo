@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/firebase.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/calendarc.tsx","./src/components/chartc.tsx","./src/components/timestampc.tsx","./src/layout/applayout.tsx","./src/pages/calendar.tsx","./src/pages/home.tsx","./src/pages/qanda.tsx","./src/pages/repoarts.tsx","./src/theme/common.ts","./src/types/index.ts"],"version":"5.6.2"}
