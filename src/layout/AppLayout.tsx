@@ -106,22 +106,19 @@ function AppLayout() {
   };
 
   return (
-    <div>
-      AppLayout
-      <AppProvider
-        navigation={NAVIGATION}
-        router={router}
-        theme={myTheme}
-        branding={{
-          logo: "",
-          title: "Cotumo",
-        }}
-      >
-        <DashboardLayout>
-          <Outlet />
-        </DashboardLayout>
-      </AppProvider>
-    </div>
+    <AppProvider
+      navigation={NAVIGATION}
+      router={router}
+      theme={myTheme}
+      branding={{
+        logo: "",
+        title: "Cotumo",
+      }}
+    >
+      <DashboardLayout>
+        <Outlet />
+      </DashboardLayout>
+    </AppProvider>
   );
 }
 
