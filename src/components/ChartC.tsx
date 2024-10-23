@@ -117,7 +117,7 @@ const ChartC: React.FC = () => {
 
   return (
     <div>
-      <h2 style={{ textAlign: "center" }}>習慣の時間グラフ</h2>
+      <h2 style={{ textAlign: "center" }}>習慣可視化グラフ</h2>
       {loading ? (
         <p>Loading...</p>
       ) : (
