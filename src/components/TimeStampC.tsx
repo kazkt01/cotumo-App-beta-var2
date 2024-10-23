@@ -168,7 +168,7 @@ const TimeStampC: React.FC = () => {
   ///////////////////////////////////////////////////////////////////////////////////////
   return (
     <Box display="flex" flexDirection="column" alignItems="center" mt={4}>
-      <Typography variant="h6">習慣のタイムスタンプを送信</Typography>
+      <Typography variant="h6">Cotumo(Demo)</Typography>
 
       <FormControl sx={{ mt: 2, width: "200px" }}>
         <InputLabel id="category-select-label">カテゴリー</InputLabel>
